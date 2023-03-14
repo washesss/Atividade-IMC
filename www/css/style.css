@@ -1,2 +1,71 @@
-/**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+::placeholder {
+    color:black;
+}
 
+#peso { 
+    font-family: Poppins;
+    color: blueviolet;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-content: center;
+}
+
+h1{
+font-family: Poppins;
+font-size: 20px;
+align-self: center;
+margin-bottom: 5vh;
+color: blueviolet;
+
+}
+
+.linha{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+    align-self: center;
+}
+
+input{
+    width: 50vw;
+    height: 3vh;
+    align-self: center;
+    padding:15px;
+    color: black;
+    border-radius: 10px;
+}
+
+input[type = "number"]:hover{
+    box-shadow: 0 12px 10px 0 rgba(53, 17, 17, 0.24);
+}
+
+input[type = "button"]:hover{
+    margin-top: 10px;
+    box-shadow: 0 12px 16px 0 rgba(53, 17, 17, 0.24);
+}
+
+input[type = "button"]{
+    height: 5vh;
+}
+
+h2{
+color: blueviolet;
+}
+
+.background{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-content: center;
+}
